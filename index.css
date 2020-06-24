@@ -1,0 +1,123 @@
+html,body{
+    background-color: #5A6571;
+	/*background-color: #E4E2E0;*/
+	height: 100%;
+	font-family:"Calibri";
+    margin: 0;
+}
+
+#content{
+    position: relative;
+    min-height: 100%;
+    overflow:auto;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+#title{
+	margin: 0px 0px;
+	padding: 15px 116px;
+	background-color: #A1A7AE;
+}
+/*******************************************************
+					LINK BAR
+*******************************************************/
+#nav{
+	/*padding-left: 100px;
+	margin: 0px -10px;*/
+	/*background-color: #696969;*/
+    background-color: #121f2f;
+}
+#nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 16px;
+	padding-left: 105px;
+	overflow: hidden;
+}
+#nav ul li{
+	float: left;
+}
+#nav ul li a{
+	padding: 16px;
+	text-decoration:none;
+}
+#nav ul li a:link{
+	color: #D6CEC8;
+}
+
+#nav ul li a:visited{
+	color: #D6CEC8;
+}
+#nav ul li a:hover{
+	color: white;
+    background-color: #2B3849; 
+	/*background-color: #7F7F7F;*/
+}
+/*******************************************************
+					BOXES CONTAINING FORMS
+*******************************************************/
+/* TODO Fix for below 882 width */
+
+#left{
+    width: 70%;
+    float: left;
+}
+
+#right{
+    width: 30%;
+    float: left;
+}
+
+.box{
+	border-radius: 15px;
+	background-color: white;
+	padding: 10px 30px;
+	margin: 10px 5px;
+	overflow: hidden;
+    background-color: #E7E9EA;
+}
+
+/*******************************************************
+					FOOTER
+*******************************************************/
+#footer{
+	background-color: #696969;
+	color: #D6CEC8;
+	height:48px;
+    width:100%;
+	position:relative;
+	bottom:0;
+	left:0;
+}
+
+#footer p {
+    padding-top: 15px;
+	padding-left: 105px;
+}
+/*******************************************************
+					FOOTER
+*******************************************************/
+table {
+  	border-spacing: 1em .5em;
+  	padding: 0 2em 1em 0;
+  	border: 1px solid black;
+}
+#people {
+  	width:100%;
+}
+#people thead{background-color: lightgray;}
+#people tr:nth-child(even){background-color: lightgray;}
+#people tbody tr:hover{
+  	background-color: lightblue;
+}
+#dataSelector {
+  	width:50%;
+}
+#selector ul li{
+  	list-style-type: none;
+  	margin: 10;
+  	float:left;
+
+}
+
+
