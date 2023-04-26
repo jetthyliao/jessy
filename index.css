@@ -1,123 +1,74 @@
 html,body{
     background-color: #5A6571;
-	/*background-color: #E4E2E0;*/
-	height: 100%;
 	font-family:"Calibri";
-    margin: 0;
 }
 
-#content{
-    position: relative;
-    min-height: 100%;
-    overflow:auto;
-    margin-right: 100px;
-    margin-left: 100px;
-}
 #title{
-	margin: 0px 0px;
-	padding: 15px 116px;
-	background-color: #A1A7AE;
+	font-size: 13vw;
+	text-align: center;
 }
-/*******************************************************
-					LINK BAR
-*******************************************************/
-#nav{
-	/*padding-left: 100px;
-	margin: 0px -10px;*/
-	/*background-color: #696969;*/
-    background-color: #121f2f;
+
+.icon{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10%;
 }
-#nav ul{
-	list-style-type: none;
-	margin: 0px;
-	padding: 16px;
-	padding-left: 105px;
-	overflow: hidden;
+
+.back{
+	padding: 2%;
+	z-index: initial;
 }
-#nav ul li{
+
+h1 {
+	text-align: center;
+	font-size: 5vw;
+}
+
+.notReady {
+	color: gray;
+}
+
+div {
+	font-size: 5vw;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+hr {
+	background: gray;
+	height: 2px;
+}
+
+.container {
+	overflow: auto; /* This is to clear the floats */
+	padding-left: 2%;
+	padding-right: 2%;
+}
+
+.time {
 	float: left;
-}
-#nav ul li a{
-	padding: 16px;
-	text-decoration:none;
-}
-#nav ul li a:link{
-	color: #D6CEC8;
+	width: 50%;
 }
 
-#nav ul li a:visited{
-	color: #D6CEC8;
-}
-#nav ul li a:hover{
-	color: white;
-    background-color: #2B3849; 
-	/*background-color: #7F7F7F;*/
-}
-/*******************************************************
-					BOXES CONTAINING FORMS
-*******************************************************/
-/* TODO Fix for below 882 width */
-
-#left{
-    width: 70%;
-    float: left;
+.content {
+	float: right;
+	width: 50%;
+	margin-right: 0; /* Remove the default margin */
+  	text-align: right; /* Align the text to the right */
 }
 
-#right{
-    width: 30%;
-    float: left;
+.day {
+	padding-top: 3%;
+	text-align: center;
+	font-weight: bold;
+	font-size: 7vw;
+	padding-right: 10%;
 }
 
-.box{
-	border-radius: 15px;
-	background-color: white;
-	padding: 10px 30px;
-	margin: 10px 5px;
-	overflow: hidden;
-    background-color: #E7E9EA;
+.header {
+	padding-top: 10%;
+	font-weight: bold;
+	font-size: 5vw;
+	padding-left: 2%;
 }
-
-/*******************************************************
-					FOOTER
-*******************************************************/
-#footer{
-	background-color: #696969;
-	color: #D6CEC8;
-	height:48px;
-    width:100%;
-	position:relative;
-	bottom:0;
-	left:0;
-}
-
-#footer p {
-    padding-top: 15px;
-	padding-left: 105px;
-}
-/*******************************************************
-					FOOTER
-*******************************************************/
-table {
-  	border-spacing: 1em .5em;
-  	padding: 0 2em 1em 0;
-  	border: 1px solid black;
-}
-#people {
-  	width:100%;
-}
-#people thead{background-color: lightgray;}
-#people tr:nth-child(even){background-color: lightgray;}
-#people tbody tr:hover{
-  	background-color: lightblue;
-}
-#dataSelector {
-  	width:50%;
-}
-#selector ul li{
-  	list-style-type: none;
-  	margin: 10;
-  	float:left;
-
-}
-
-
