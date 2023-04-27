@@ -72,3 +72,18 @@ hr {
 	font-size: 5vw;
 	padding-left: 2%;
 }
+
+img {
+    max-width:70%;
+    text-align:center;
+    display: block;
+    margin-left: auto;
+	margin-right: auto;
+}
+
+.desc {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 5%;
+}
+
